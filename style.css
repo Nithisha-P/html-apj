@@ -1,0 +1,76 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background: #355C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Arial, sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+img{
+    width: 500px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #871536;
+    width: 100%;
+}
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #19364f;
+    font-weight: bold;
+}
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.info-box{
+    margin: 10px;
+    padding: 20px;
+    border:3px dashed rgba(25, 24, 24, 0.741);
+}
+
+
+p{
+    color: rgba(250, 235, 215, 0.879);
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.834);
+}
+
+.i-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.i-item{
+    margin: 0.5rem;
+    padding: 2rem;
+    align-items: center;
+}
